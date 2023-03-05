@@ -1,3 +1,3 @@
 function goToCarPage(){
-    return window.location.replace('/car');
+    window.location.replace(window.location.href + '/car')
 }
